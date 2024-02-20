@@ -52,4 +52,10 @@ const printTotal = (scores) => {
     return total
 }
 
+
+
 console.log(printTotal(scores))
+
+
+
+
