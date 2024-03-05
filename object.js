@@ -54,7 +54,7 @@ for (let i = 0; i < arr.length; i++) {
 }
 console.log(largest);
 
-let numStr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let numStr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 12];
 
 const sumEvens = (numStr) => {
     let sum = 0;
@@ -70,7 +70,7 @@ console.log(sumEvens(numStr))
 
 
 
-const onlyEven = arr => arr.filter(v => v % 2 === 0)
+const onlyEven = arr => arr.filter(b => b % 2 === 0)
 
 const data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
